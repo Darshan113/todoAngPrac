@@ -40,3 +40,21 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Node artifacts
+node_modules/
+npm-debug.log
+
+# Angular build artifacts
+/dist
+/tmp
+*.swp
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
